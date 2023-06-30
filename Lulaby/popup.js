@@ -1,4 +1,4 @@
-```javascript
+//javascript
 let upvotedMessages = [];
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -40,4 +40,3 @@ function pinMessage(message) {
         messageElement.style.position = '';
     }, 5000);
 }
-```
