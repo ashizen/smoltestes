@@ -1,4 +1,4 @@
-```javascript
+//javascript
 let upvotedMessages = [];
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
@@ -33,4 +33,3 @@ function updateMessageDisplay() {
     pinMessage(message);
   });
 }
-```
