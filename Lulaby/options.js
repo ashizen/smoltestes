@@ -1,4 +1,4 @@
-```javascript
+//javascript
 // Options for the Lulaby Chrome Extension
 
 // Default settings
@@ -36,4 +36,3 @@ function restoreOptions() {
 // Event listeners
 document.addEventListener('DOMContentLoaded', restoreOptions);
 document.getElementById('save').addEventListener('click', saveOptions);
-```
