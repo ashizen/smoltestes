@@ -1,4 +1,4 @@
-```javascript
+//javascript
 let upvotedMessages = [];
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
@@ -29,4 +29,3 @@ chrome.runtime.onStartup.addListener(() => {
 chrome.runtime.onInstalled.addListener(() => {
   retrieveMessage();
 });
-```
